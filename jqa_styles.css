@@ -1,0 +1,37 @@
+#box1 {
+    background: pink;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 6%;
+}
+
+#box2 {
+    background: lightblue;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 6%;
+}
+
+#box3 {
+    background: yellowgreen;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 6%;
+}
+
+#box4 {
+    background: teal;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 6%;
+}
+
+.img {
+    height: 90px;
+    width: 90px;
+    align-items: center;
+}
