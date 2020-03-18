@@ -1,6 +1,6 @@
 #box1 {
     background: pink;
-    display: inline-block;
+    display: block;
     height: 100px;
     width: 100px;
     margin: 6%;
@@ -8,15 +8,15 @@
 
 #box2 {
     background: lightblue;
-    display: inline-block;
+    display: block;
     height: 100px;
     width: 100px;
     margin: 6%;
 }
 
 #box3 {
-    background: yellowgreen;
-    display: inline-block;
+    background: limegreen;
+    display: block;
     height: 100px;
     width: 100px;
     margin: 6%;
@@ -24,14 +24,16 @@
 
 #box4 {
     background: teal;
-    display: inline-block;
+    display: block;
     height: 100px;
     width: 100px;
     margin: 6%;
 }
 
 .img {
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     align-items: center;
+
+
 }
