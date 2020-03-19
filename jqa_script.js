@@ -17,6 +17,20 @@ $(document).ready(() => {
         $box1.css("margin-left", "+=100");
     })
 
+    $pinkimg.mousedown(function(event) {
+            switch (event.which) {
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    $box1.css("margin-left", "-=100");
+                    break;
+                default:
+                    break;
+            }
+        });
+
     var $lightblueimg = $("#lightblueimg");
     var $box2 = $("#box2");
     $lightblueimg.hide();
@@ -34,6 +48,20 @@ $(document).ready(() => {
     $lightblueimg.dblclick(() => {
         $box2.css("margin-left", "+=100");
     });
+
+    $lightblueimg.mousedown(function(event) {
+            switch (event.which) {
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    $box2.css("margin-left", "-=100");
+                    break;
+                default:
+                    break;
+            }
+        });
 
     var $limegreenimg = $("#limegreenimg");
     var $box3 = $("#box3");
@@ -53,6 +81,20 @@ $(document).ready(() => {
         $box3.css("margin-left", "+=100");
     });
 
+    $limegreenimg.mousedown(function(event) {
+            switch (event.which) {
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    $box3.css("margin-left", "-=100");
+                    break;
+                default:
+                    break;
+            }
+        });
+
     var $tealimg = $("#tealimg");
     var $box4 = $("#box4");
     $tealimg.hide();
@@ -70,5 +112,19 @@ $(document).ready(() => {
     $tealimg.dblclick(() => {
         $box4.css("margin-left", "+=100");
     });
+
+    $tealimg.mousedown(function(event) {
+            switch (event.which) {
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    $box4.css("margin-left", "-=100");
+                    break;
+                default:
+                    break;
+            }
+        });
 
 });
